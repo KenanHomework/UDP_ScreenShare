@@ -1,0 +1,34 @@
+﻿<Application x:Class="Client.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Client" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- Colors -->
+                <ResourceDictionary>
+
+                    <!-- rgba(39,39,39,255) -->
+                    <SolidColorBrush x:Key="Secondary_clr"   Color="#272727"/>
+
+                    <!-- rgba(31,32,34,255) -->
+                    <SolidColorBrush x:Key="MainDark_clr" Color="#1f2022"/>
+
+                    <!-- rgba(44,45,47,255) -->
+                    <SolidColorBrush x:Key="Selection_clr"  Color="#383838"/>
+
+                    <!-- rgba(196,43,28,255) -->
+                    <SolidColorBrush x:Key="Red_clr"  Color="#c42b1c"/>
+
+                </ResourceDictionary>
+
+                <ui:ThemesDictionary Theme="Dark" />
+                <ui:ControlsDictionary />
+
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
